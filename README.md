@@ -14,6 +14,6 @@ Then activate the environment using:
 Otherwise, the file requirements.txt should tell you what you need.
 
 ### How to use
-Refer to the Jupyter notebooks for instructions on how to use MaD and interpret its output info and files.
+Refer to the Jupyter notebook "MaD_notebook_instructions" for how to use MaD and interpret its output info and files.
 Templates are also available for your own applications.
 
