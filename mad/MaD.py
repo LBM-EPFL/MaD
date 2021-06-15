@@ -66,7 +66,7 @@ class MaD(object):
                 self.input_ensembles[sub_key] = {}
                 for i, frame in enumerate(frame_list):
                     frame_key = os.path.splitext(os.path.split(frame)[-1])[0]
-                    print(frame_key)
+                    print("      > Added frame: ", frame_key)
                     self.input_ensembles[sub_key][frame_key] = [frame, n_copies]
                 print("MaD> Added: ensemble %s of %i frames"%(sub_key, i))
         else:
