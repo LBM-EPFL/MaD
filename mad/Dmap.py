@@ -1,21 +1,3 @@
-'''
-Sylvain Traeger - LBM / EPFL, 2017
-----------------------------------
-
-*********
-Dmap
-*********
-
-Storage class for electronic density maps in SIT (SITUS) format
-
-Read file sent as parameter:
-> Load header information: origin coordinates, and dimensions
-> Load voxels in a 1D array (order: X changes fastest, Z slowest)
-
-> Object is then defined by its 1D array, resolution and voxel spacing
-
-'''
-
 import os
 import sys
 import numpy as np
